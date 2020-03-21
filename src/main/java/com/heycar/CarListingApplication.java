@@ -1,0 +1,15 @@
+package com.heycar;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+
+@SpringBootApplication
+@EnableJpaAuditing
+public class CarListingApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CarListingApplication.class, args);
+	}
+
+}
