@@ -45,7 +45,7 @@ POST - http://localhost:8080/car-listing/vehicle_listings/{dealer_id}
 
 * Get Listings by different parameters as year/make/model/color
 ```
-*GET - http://localhost:8080/car-listing/search?year={value}
+*GET - http://localhost:8080/car-listing/search?year={value}&make={value}&color={value}
 ```
 
 ### Spec -
